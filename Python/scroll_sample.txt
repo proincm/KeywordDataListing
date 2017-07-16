@@ -1,0 +1,3 @@
+lines_in_view = len(view.lines(view.visible_region()))
+first_line,_ = view.rowcol(view.visible_region().begin())
+view.show(view.text_point(first_line + lines_in_view, 0))
