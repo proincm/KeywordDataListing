@@ -50,7 +50,7 @@ class AlignmentCommand(sublime_plugin.TextCommand):
             points = []
             line_nums = [view.rowcol(line.a)[0] for line in view.lines(sel[0])]
 
-            trim_trailing_white_space = \
+            trim_trailing_white_space = \ 
                 settings.get('trim_trailing_white_space_on_save')
 
             if settings.get('align_indent'):
