@@ -1,0 +1,11 @@
+_name: keyword.operator.comparison.python
+  match: <\=|>\=|\=\=|<|>|\!\=
+
+- name: keyword.operator.assignment.augmented.python
+  match: \+\=|-\=|\*\=|/\=|//\=|%\=|&\=|\|\=|\^\=|>>\=|<<\=|\*\*\=|@\=
+
+- name: keyword.operator.arithmetic.python
+  match: \+|\-|\*|\*\*|/|//|%|<<|>>|&|\||\^|~|(?!^)@
+
+- name: keyword.operator.assignment.python
+  match: \=
