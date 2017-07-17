@@ -8,17 +8,10 @@ __import__ | abs | all | any | ascii | basestring | bin | bool |
           property | range | raw_input | reduce | reload | repr |
           reversed | round | set | setattr | slice | sorted | staticmethod |
           str | sum | super | tuple | type | unichr | unicode | vars |
-          xrange | zip
+          xrange | zip |
 
           
-          magic_function_calls:
-    patterns:
-    - name: meta.function-call.python
-      begin: |-
-        (?x)
-          (\.)?
-          \b(
-            __(?:
+          
               abs | add | aenter | aexit | aiter | and | anext | await | bool |
               bytes | call | ceil | cmp | coerce | complex | contains | copy |
               deepcopy | del | delattr | delete | delitem | delslice | dir | div |
@@ -34,6 +27,4 @@ __import__ | abs | all | any | ascii | basestring | bin | bool |
               rlshift | rmatmul | rmod | rmul | rop | ror | round | rpow | rrshift |
               rshift | rsub | rtruediv | rxor | set | setattr | setitem | setslice |
               setstate | sizeof | str | sub | subclasscheck | truediv | trunc |
-              unicode | xor)
-            __)
-          \s*(?=(\())
+              unicode | xor
