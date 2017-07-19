@@ -9,3 +9,4 @@ sublime-settings
 tmPreferences
 sublime-commands
 sublime-snippet
+sublime-mousemap
