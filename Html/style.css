@@ -1,0 +1,34 @@
+
+/**
+ * ICON BUTTONS
+ *
+ * <symbol>⟲</symbol>
+ *
+ * Unicode chars are rendered smaller than normal text and sometimes ugly
+ * depending on font-family, so force fonts known to render well.
+ * This rule is used to fix the font-family and font-size.
+ **/
+.git-gutter div.toolbar symbol {
+    font-family: "Roboto Mono", "Segoe UI", monospace;
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0.0rem 0.1rem 0.0rem 0.1em;
+}
+
+/**
+ * LINKS
+ *
+ * Don't underline links.
+ **/
+.git-gutter a {
+    text-decoration: none;
+}
+
+/**
+ * TEXT LINE
+ *
+ * Each line is wrapped into <p> tag.
+ **/
+.git-gutter .highlight p {
+    margin: 0;
+}
