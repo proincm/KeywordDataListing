@@ -1,0 +1,11 @@
+tmTheme
+sublime-keymap
+sublime-completions
+sublime-project
+sublime-syntax
+sublime-build
+sublime-menu
+sublime-settings
+tmPreferences
+sublime-commands
+sublime-snippet
